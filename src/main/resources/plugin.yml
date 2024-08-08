@@ -1,0 +1,8 @@
+name: RestrictionPL
+version: '${version}'
+main: fr.silenthill99.restrictionpl.Main
+depend: [ GroupManager ]
+commands:
+  restriction:
+    permission: "anamara.restriction"
+    permission-message: "§cVous n'avez pas accès à cette commande !"
